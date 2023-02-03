@@ -9,5 +9,16 @@ print("For the first phase of this project, we will be looking at the data that 
 
 trichyHousingInfo = pd.read_csv('Trichy Housing Info .csv')
 
+retainColumns = ['Total/ Rural/ Urban', 'Total - Persons', 'Total - Males', 'Total - Females', 'Scheduled Caste - Persons', 'Scheduled Caste - Males', 'Scheduled Caste - Females', 'Scheduled Tribe - Persons', 'Scheduled Tribe - Males', 'Scheduled Tribe - Females']
+trichyHousing = trichyHousingInfo[retainColumns]
+
+print(trichyHousing.head())
+'''
+plt.figure(figsize=(12,8))
+
+sns.barplot(data=trichyHousing)
+plt.show()
+
+'''
 
 
