@@ -1,0 +1,7 @@
+- Build model for one taluk
+    - Use one goddown where info syncs and estimate distance for one taluk
+
+- Network algorithms
+
+- Acquire area of taluk info
+
