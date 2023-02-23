@@ -6,8 +6,4 @@
     - given distances between shops, arrange randomly, simulate milk run, estimate distance*petrol cost for total cost
     - function to generate trucks for milk run
 
-
-- Network algorithms
-
-- Acquire area of taluk info
-
+- fix random shop distances per run [ fix shop distance declaration to fit into kilometres]
