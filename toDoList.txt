@@ -2,8 +2,12 @@
     - Use one goddown where info syncs and estimate distance for one taluk
     - scale values to match max distance between shop according to areas
 
+- pending funcionalities
+    - given distances between shops, arrange randomly, simulate milk run, estimate distance*petrol cost for total cost
+    - function to generate trucks for milk run
+
+
 - Network algorithms
 
 - Acquire area of taluk info
 
-i have a chi square distribution with df as 4 and iterations as 136. but some of the values in this distribution exceed 10. i want to scale all the values so that the highest value doesnt exceed 10. can you give me a code snippet to do the same ?
